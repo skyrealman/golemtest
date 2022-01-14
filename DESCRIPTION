@@ -5,9 +5,26 @@ Authors@R: person('song', 'zhen', email = 'skyrealman@gmail.com', role = c('cre'
 Description: Fist golem app.
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    DT,
+    glue,
     golem (>= 0.3.1),
-    shiny (>= 1.7.1)
+    htmltools,
+    pkgload,
+    processx,
+    shiny (>= 1.7.1),
+    thinkr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
+Suggests: 
+    rmarkdown,
+    knitr,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
+URL: https://github.com/skyrealman/golemtest
+BugReports: https://github.com/skyrealman/golemtest/issues
